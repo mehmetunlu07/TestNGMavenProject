@@ -18,6 +18,7 @@
             <class name="mytests.SearchCustomer"/>
             <class name="mytests.LoginPageTest"/>
 
+            
         </classes>
     </test>
 
