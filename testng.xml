@@ -17,8 +17,6 @@
             <class name="mytests.Class1"/>
             <class name="mytests.SearchCustomer"/>
             <class name="mytests.LoginPageTest"/>
-<!--            new line-->
-
         </classes>
     </test>
 
