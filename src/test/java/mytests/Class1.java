@@ -13,4 +13,5 @@ public class Class1 {
         System.out.println("I am inside class1 - method2");
     }
     //new line ---------------
+    //next line
 }
