@@ -12,8 +12,4 @@ public class Class1 {
     public void method2(){
         System.out.println("I am inside class1 - method2");
     }
-    //new line ---------------
-    //next line
-    //3rd line----------------
-    //------------------
-}
+  }
