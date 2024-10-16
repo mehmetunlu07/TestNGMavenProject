@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="SampleSuite" parallel="false">
+<suite name="TestSuite" parallel="false">
+
+    <listeners>
+        <listener class-name="base.TestListener"/>
+    </listeners>
 
     <!-- Define the test suite -->
-    <test name="Login Page Test">
+    <test name="LoginTest">
         <!-- Set any parameters (if needed) -->
 <!--        <parameter name="browser" value="chrome"/>-->
 
@@ -14,9 +18,8 @@
 
         <!--        Define the classes to be executed-->
         <classes>
-<!--            <class name="mytests.Class1"/>-->
-<!--            <class name="mytests.SearchCustomer"/>-->
             <class name="mytests.LoginTest"/>
+
         </classes>
     </test>
 

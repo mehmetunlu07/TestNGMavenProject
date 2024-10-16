@@ -1,7 +1,6 @@
 package pages;
 
-import Base.BaseTest;
-import Base.CommonMethods;
+import base.CommonMethods;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;

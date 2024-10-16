@@ -1,7 +1,9 @@
 package mytests;
-import Base.CommonMethods;
+import base.CommonMethods;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+@Listeners(base.TestListener.class)
 public class LoginTest extends CommonMethods {
 
 
