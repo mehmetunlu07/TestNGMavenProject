@@ -6,7 +6,7 @@
     <!-- Define the test suite -->
     <test name="Login Page Test">
         <!-- Set any parameters (if needed) -->
-        <parameter name="browser" value="chrome"/>
+<!--        <parameter name="browser" value="chrome"/>-->
 
         <!--        <packages>-->
         <!--            <package name="mytests" />-->
@@ -14,9 +14,9 @@
 
         <!--        Define the classes to be executed-->
         <classes>
-            <class name="mytests.Class1"/>
-            <class name="mytests.SearchCustomer"/>
-            <class name="mytests.LoginPageTest"/>
+<!--            <class name="mytests.Class1"/>-->
+<!--            <class name="mytests.SearchCustomer"/>-->
+            <class name="mytests.LoginTest"/>
         </classes>
     </test>
 
