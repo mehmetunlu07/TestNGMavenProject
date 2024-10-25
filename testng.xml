@@ -8,7 +8,7 @@
     </listeners>
 
     <!-- Define the test suite -->
-    <test name="LoginTest">
+    <test name="Test">
         <!-- Set any parameters (if needed) -->
 <!--        <parameter name="browser" value="chrome"/>-->
 
@@ -18,7 +18,7 @@
 
         <!--        Define the classes to be executed-->
         <classes>
-            <class name="mytests.LoginTest"/>
+            <class name="mytests.SampleTest"/>
 
         </classes>
     </test>

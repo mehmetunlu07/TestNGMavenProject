@@ -31,7 +31,7 @@ public class BaseTest {
         driver.manage().timeouts().implicitlyWait(15,TimeUnit.SECONDS);
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
-        driver.get("https://www.google.com");
+        driver.get("https://www.liquidation.com");
 
         PageInitializer.initialize();
         return driver;
