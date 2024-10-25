@@ -24,8 +24,8 @@ public class SampleTest extends CommonMethods {
         1.Navigate https://liquidation.com
         2.Fetch web page URL and Title
         3.Search furniture
-        4.Select all products related with furniture and write to console and select first Truckload product
-        5. Take the screenshot of Truckload product
+        4.Loop all products related with furniture and write to the console and select first Truckload product
+        5.Take the screenshot of Truckload product
         6.Find the Auction Id and write to the console
         */
 
