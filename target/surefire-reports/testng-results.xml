@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-16T17:01:54 CDT" name="SampleSuite" finished-at="2024-10-16T17:02:01 CDT" duration-ms="6914">
+  <suite started-at="2024-10-25T20:28:59 CDT" name="TestSuite" finished-at="2024-10-25T20:29:08 CDT" duration-ms="9039">
     <groups>
     </groups>
-    <test started-at="2024-10-16T17:01:54 CDT" name="Login Page Test" finished-at="2024-10-16T17:02:01 CDT" duration-ms="6914">
-      <class name="mytests.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:mytests.LoginPageTest@470f1802]" started-at="2024-10-16T17:01:54 CDT" name="setup" finished-at="2024-10-16T17:01:55 CDT" duration-ms="1294" status="PASS">
+    <test started-at="2024-10-25T20:28:59 CDT" name="Test" finished-at="2024-10-25T20:29:08 CDT" duration-ms="9039">
+      <class name="mytests.SampleTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mytests.SampleTest@34b7ac2f]" started-at="2024-10-25T20:28:59 CDT" name="setup" finished-at="2024-10-25T20:29:01 CDT" duration-ms="2745" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LogoTest()[pri:0, instance:mytests.LoginPageTest@470f1802]" started-at="2024-10-16T17:01:55 CDT" name="LogoTest" finished-at="2024-10-16T17:02:01 CDT" duration-ms="5456" status="PASS">
+        <test-method signature="test()[pri:0, instance:mytests.SampleTest@34b7ac2f]" started-at="2024-10-25T20:29:01 CDT" name="test" finished-at="2024-10-25T20:29:07 CDT" duration-ms="6092" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LogoTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mytests.LoginPageTest@470f1802]" started-at="2024-10-16T17:02:01 CDT" name="tearDown" finished-at="2024-10-16T17:02:01 CDT" duration-ms="138" status="PASS">
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mytests.SampleTest@34b7ac2f]" started-at="2024-10-25T20:29:07 CDT" name="tearDown" finished-at="2024-10-25T20:29:08 CDT" duration-ms="186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- mytests.LoginPageTest -->
-    </test> <!-- Login Page Test -->
-  </suite> <!-- SampleSuite -->
+      </class> <!-- mytests.SampleTest -->
+    </test> <!-- Test -->
+  </suite> <!-- TestSuite -->
 </testng-results>

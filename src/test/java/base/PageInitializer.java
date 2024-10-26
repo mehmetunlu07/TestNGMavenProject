@@ -1,13 +1,13 @@
 package base;
 
-import pages.GooglePageElements;
+import pages.LiquidationHomePageElements;
 
 public class PageInitializer extends BaseTest {
-    public static GooglePageElements google;
+    public static LiquidationHomePageElements homePage;
 
 
     public static void initialize(){
-        google=new GooglePageElements();
+        homePage=new LiquidationHomePageElements();
     }
 
 
