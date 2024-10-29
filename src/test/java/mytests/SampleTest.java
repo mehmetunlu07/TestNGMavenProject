@@ -26,7 +26,7 @@ public class SampleTest extends CommonMethods {
         2.Fetch web page URL and Title
         3.Search furniture
         4.Loop all products related with furniture and write to the console and select first product include "Furniture"
-        5.Take the screenshot of Truckload product
+        5.Take the screenshot of product
         6.Find the Auction Id and write to the console
         */
 
