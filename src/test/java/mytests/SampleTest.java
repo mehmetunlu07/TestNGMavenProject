@@ -1,6 +1,7 @@
 package mytests;
 
 import base.CommonMethods;
+import base.ScreenRecorderUtil;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -19,7 +20,7 @@ public class SampleTest extends CommonMethods {
 
 
     @Test
-    public void productSearch() throws InterruptedException, IOException {
+    public void productSearch() throws Exception {
         /*
         Task:
         1.Navigate https://liquidation.com
@@ -29,7 +30,7 @@ public class SampleTest extends CommonMethods {
         5.Take the screenshot of product
         6.Find the Auction Id and write to the console
         */
-
+       // ScreenRecorderUtil.startRecording("src/test/java/recordings/screenrecording.mp4");
 
         String url = driver.getCurrentUrl();
         String title = driver.getTitle();
@@ -57,8 +58,7 @@ public class SampleTest extends CommonMethods {
         WebElement el=homePage.product;
         String auctionId=el.getText();
         System.out.println("Auction Id: "+auctionId);
-
-
+       // ScreenRecorderUtil.stopRecording();
 
     }
 
