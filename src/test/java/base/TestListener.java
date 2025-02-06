@@ -17,6 +17,7 @@ public class TestListener implements ITestListener {
     @Override
     public void onTestFailure(ITestResult result) {
         System.out.println("Test Failed: " + result.getName());
+        System.out.println("Failure Reason: " + result.getThrowable().getMessage());
         // You can also log additional info or take screenshots here.
     }
 

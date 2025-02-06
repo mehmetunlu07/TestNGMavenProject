@@ -1,7 +1,9 @@
 package example;
 
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+@Listeners(base.TestListener.class)
 public class ExceptionEx1 {
 
 
@@ -10,16 +12,19 @@ public class ExceptionEx1 {
         int a=5;
         int b=0;
 
-        for(int i=1;i<5;i++) {
+        for(int i=1;i<=2;i++) {
             try {
                 int c = a / b;
+                System.out.println("c= "+c);
                 break;
             } catch (RuntimeException e) {
-                System.out.println("Element is stale. retrying..");
-                //throw new RuntimeException("Stale element exception throwed.");
+                System.out.println("Element is stale. retrying.."+" Run="+i);
+                if(i==2) {
+                    throw new RuntimeException("Test Failed:Stale element exception.");
+                }
 
             }
-            System.out.println("i="+i);
+
         }
 
     }
