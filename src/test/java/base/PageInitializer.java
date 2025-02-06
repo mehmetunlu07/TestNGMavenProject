@@ -7,6 +7,7 @@ public class PageInitializer extends BaseTest {
 
 
     public static void initialize(){
+
         homePage=new LiquidationHomePageElements();
     }
 

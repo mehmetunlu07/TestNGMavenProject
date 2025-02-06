@@ -19,6 +19,7 @@ public class LiquidationHomePageElements extends CommonMethods {
 
 
     public LiquidationHomePageElements(){
+
         PageFactory.initElements(driver, this);
     }
 
