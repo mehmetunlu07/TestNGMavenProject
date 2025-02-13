@@ -59,7 +59,6 @@ public class SampleTest extends CommonMethods {
         String auctionId=el.getText();
         System.out.println("Auction Id: "+auctionId);
        // ScreenRecorderUtil.stopRecording();
-        //
 
     }
 
