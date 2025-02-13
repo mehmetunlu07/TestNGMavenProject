@@ -17,7 +17,7 @@ public String display(String a){
     this.a=a;
     return a;
 
-};
+}
 
     public static void main(String[] args) {
         Java01 obj=new Java01("Bob");
