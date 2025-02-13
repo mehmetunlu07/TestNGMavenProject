@@ -1,18 +1,12 @@
 package mytests;
 
 import base.CommonMethods;
-import base.ScreenRecorderUtil;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import pages.LiquidationHomePageElements;
 
 import java.io.File;
-import java.io.IOException;
-import java.time.Duration;
 import java.util.List;
 
 @Listeners(base.TestListener.class)
@@ -30,7 +24,7 @@ public class SampleTest extends CommonMethods {
         5.Take the screenshot of product
         6.Find the Auction Id and write to the console
         */
-       // ScreenRecorderUtil.startRecording("src/test/java/recordings/screenrecording.mp4");
+
 
         String url = driver.getCurrentUrl();
         String title = driver.getTitle();
@@ -58,7 +52,7 @@ public class SampleTest extends CommonMethods {
         WebElement el=homePage.product;
         String auctionId=el.getText();
         System.out.println("Auction Id: "+auctionId);
-       // ScreenRecorderUtil.stopRecording();
+
 
     }
 

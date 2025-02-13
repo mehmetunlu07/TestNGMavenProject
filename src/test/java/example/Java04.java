@@ -4,9 +4,9 @@ public class Java04 extends Java03{
 
 
     public Java04(){
-        super("this is a new world");
+        super("This is a parent class constructor");
         System.out.println("This is child class constructor");
-        System.out.println(super.str);
+        //System.out.println(super.str);
     }
 
 

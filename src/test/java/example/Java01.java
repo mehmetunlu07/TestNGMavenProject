@@ -16,6 +16,7 @@ public Java01(String a){
 public String display(String a){
     this.a=a;
     return a;
+
 };
 
     public static void main(String[] args) {
